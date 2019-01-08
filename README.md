@@ -1,2 +1,2 @@
 # homepage
-Joe Gravity Design promotional web page
+Joe Gravity Design promotional web page, hosted at joegravity.com

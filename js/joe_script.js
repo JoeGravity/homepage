@@ -1,7 +1,7 @@
 var top_menu_height = 0;
 jQuery(function($) {
-		$(window).load( function() {
-			$('.external-link').unbind('click');
+    $(window).on('load', function() {
+        $('.external-link').unbind('click');
 		});
 
         $(document).ready( function() {
@@ -44,12 +44,12 @@ jQuery(function($) {
 
 
         //gallery light box setup
-        $('a.colorbox').colorbox({
+/*         $('a.colorbox').colorbox({
                                     rel: function(){
                                         return $(this).data('group');
 
                                     }
-        });
+        }); */
     });
 });
 
